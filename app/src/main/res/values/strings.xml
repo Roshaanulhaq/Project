@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">proj1</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_fragm1">Fragm1</string>
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">About Us</string>
+    <string name="tab_text_3">Reviews</string>
+    <string name="title_activity_try1">try1</string>
+    <string name="title_activity_try2">try2</string>
+    <string name="rev">Reviews</string>
+    <string name="rev1">Roshaan Ul Haq</string>
+    <string name="body1">Very good App</string>
+    <string name="rev2">Muneeb Akhtar</string>
+    <string name="body2">Easy to use</string>
+    <string name="rev3">Hamna Faisal</string>
+    <string name="body3">Good UI</string>
+    <string name="rev4">Talha</string>
+    <string name="body4">My blind friend used it and he gave good reviews</string>
+
+    <!-- Login Page-->
+    <string name="email">Email@gmail.com</string>
+    <string name="pass">Password</string>
+    <string name="rem">Remember Me</string>
+    <string name="btn">Log In</string>
+    <string name="info">Forgot Your Password ?</string>
+    <string name="sgn">SignUp</string>
+    <string name="ab">fjewjfowehoifewfoiwehfioewfwoiehfoiewhfoiwhefhewofhweoifhewoihfoiwehfwoeihfoiwehfohwefnewnfouwehofweoifoiwenbafkjfseiufhuehufhewhfuhewuhfjnefiuewfwemuneeb akhtaraiuqdghiuofoiweoifowefbweofboiwewfeiofjewfiojfioewifeiwjfioewjfjwejfoiwejfjoiwejfjweifjweoifwejoi</string>
+
+<!-- Sign Up Page-->
+    <string name="name">Name</string>
+    <string name="num">1234678</string>
+    <string name="lgn">Login</string>
+
+    <!-- Frag1-->
+    <string name="value1">1000</string>
+    <string name="value2">1200</string>
+    <string name="value3">1400</string>
+    <string name="ins">Installs</string>
+    <string name="clien">Clients</string>
+    <string name="ser">Servers</string>
+
+    <!--Frag2-->
+    <string name="aut">Authors</string>
+    <string name="na1">Muneeb Akhtar</string>
+    <string name="uni">National University (FAST)</string>
+    <string name="info1">My Info</string>
+    <string name="na2">Roshan Ul Haq</string>
+    <string name="info2">How to Use this Appliation?</string>
+    <string name="load">Loading ....</string>
+</resources>

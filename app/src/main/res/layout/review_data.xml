@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backgoundColor"
+    android:orientation="vertical"
+    android:padding="6dp"
+    >
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        card_view:cardBackgroundColor="#FFFFFF"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+
+                <ImageView
+                    android:id="@+id/avat1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    card_view:ignore="MissingConstraints" />
+
+                <TextView
+                android:id="@+id/name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rev1"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.048"
+                app:layout_constraintStart_toEndOf="@+id/avat1"
+                card_view:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/body1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="40dp"
+
+                    android:enabled="true"
+                    android:longClickable="true"
+                    android:text="@string/body1"
+                    android:textColor="@color/blackColor"
+                    android:textIsSelectable="true"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/name1" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/grayColor"
+                app:layout_constraintTop_toBottomOf="@+id/body1"
+                card_view:ignore="MissingConstraints"
+                card_view:layout_editor_absoluteX="0dp" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+
+                <ImageView
+                    android:id="@+id/avat2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    card_view:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/name2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rev2"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.048"
+                    app:layout_constraintStart_toEndOf="@+id/avat2"
+                    card_view:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/body2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="41dp"
+                    android:enabled="true"
+
+                    android:longClickable="true"
+                    android:text="@string/body2"
+                    android:textColor="@color/blackColor"
+                    android:textIsSelectable="true"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/name2"
+                    android:layout_marginLeft="35dp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/grayColor"
+                    app:layout_constraintTop_toBottomOf="@+id/body2"
+                    card_view:ignore="MissingConstraints"
+                    card_view:layout_editor_absoluteX="0dp" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+
+                <ImageView
+                    android:id="@+id/avat3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    card_view:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/name3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rev3"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.048"
+                    app:layout_constraintStart_toEndOf="@+id/avat3"
+                    card_view:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/body3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="41dp"
+                    android:enabled="true"
+
+                    android:longClickable="true"
+                    android:text="@string/body3"
+                    android:textColor="@color/blackColor"
+                    android:textIsSelectable="true"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/name3"
+                    android:layout_marginLeft="35dp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/grayColor"
+                    app:layout_constraintTop_toBottomOf="@+id/body3"
+                    card_view:ignore="MissingConstraints"
+                    card_view:layout_editor_absoluteX="0dp" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+
+                <ImageView
+                    android:id="@+id/avat4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    card_view:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/name4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rev4"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.048"
+                    app:layout_constraintStart_toEndOf="@+id/avat4"
+                    card_view:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/body4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="41dp"
+                    android:enabled="true"
+
+                    android:longClickable="true"
+                    android:text="@string/body4"
+                    android:textColor="@color/blackColor"
+                    android:textIsSelectable="true"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/name4"
+                    android:layout_marginLeft="35dp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/grayColor"
+                    app:layout_constraintTop_toBottomOf="@+id/body4"
+                    card_view:ignore="MissingConstraints"
+                    card_view:layout_editor_absoluteX="0dp" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+
+                <ImageView
+                    android:id="@+id/avat5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    card_view:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/name5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rev1"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.048"
+                    app:layout_constraintStart_toEndOf="@+id/avat5"
+                    card_view:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/body5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="41dp"
+                    android:enabled="true"
+
+                    android:longClickable="true"
+                    android:text="@string/body1"
+                    android:textColor="@color/blackColor"
+                    android:textIsSelectable="true"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/name5"
+                    android:layout_marginLeft="35dp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/grayColor"
+                    app:layout_constraintTop_toBottomOf="@+id/body5"
+                    card_view:ignore="MissingConstraints"
+                    card_view:layout_editor_absoluteX="0dp" />
+
+            </android.support.constraint.ConstraintLayout>
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+
+                <ImageView
+                    android:id="@+id/avat6"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    card_view:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/name6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rev1"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.048"
+                    app:layout_constraintStart_toEndOf="@+id/avat6"
+                    card_view:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/body6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="41dp"
+                    android:enabled="true"
+
+                    android:longClickable="true"
+                    android:text="@string/body1"
+                    android:textColor="@color/blackColor"
+                    android:textIsSelectable="true"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/name6"
+                    android:layout_marginLeft="35dp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/grayColor"
+                    app:layout_constraintTop_toBottomOf="@+id/body6"
+                    card_view:ignore="MissingConstraints"
+                    card_view:layout_editor_absoluteX="0dp" />
+
+            </android.support.constraint.ConstraintLayout>
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+
+                <ImageView
+                    android:id="@+id/avat7"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    card_view:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/name7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rev1"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.048"
+                    app:layout_constraintStart_toEndOf="@+id/avat7"
+                    card_view:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/body7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="41dp"
+                    android:enabled="true"
+
+                    android:longClickable="true"
+                    android:text="@string/body1"
+                    android:textColor="@color/blackColor"
+                    android:textIsSelectable="true"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/name7"
+                    android:layout_marginLeft="35dp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/grayColor"
+                    app:layout_constraintTop_toBottomOf="@+id/body7"
+                    card_view:ignore="MissingConstraints"
+                    card_view:layout_editor_absoluteX="0dp" />
+
+            </android.support.constraint.ConstraintLayout>
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+
+                <ImageView
+                    android:id="@+id/avat8"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    card_view:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/name8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rev1"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.048"
+                    app:layout_constraintStart_toEndOf="@+id/avat8"
+                    card_view:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/body8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="41dp"
+                    android:enabled="true"
+
+                    android:longClickable="true"
+                    android:text="@string/body1"
+                    android:textColor="@color/blackColor"
+                    android:textIsSelectable="true"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/name8"
+                    android:layout_marginLeft="35dp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/grayColor"
+                    app:layout_constraintTop_toBottomOf="@+id/body8"
+                    card_view:ignore="MissingConstraints"
+                    card_view:layout_editor_absoluteX="0dp" />
+
+            </android.support.constraint.ConstraintLayout>
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+
+                <ImageView
+                    android:id="@+id/avat9"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    card_view:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/name9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rev1"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.048"
+                    app:layout_constraintStart_toEndOf="@+id/avat9"
+                    card_view:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/body9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="41dp"
+                    android:enabled="true"
+
+                    android:longClickable="true"
+                    android:text="@string/body1"
+                    android:textColor="@color/blackColor"
+                    android:textIsSelectable="true"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/name9"
+                    android:layout_marginLeft="35dp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/grayColor"
+                    app:layout_constraintTop_toBottomOf="@+id/body9"
+                    card_view:ignore="MissingConstraints"
+                    card_view:layout_editor_absoluteX="0dp" />
+
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
